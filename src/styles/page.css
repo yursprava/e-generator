@@ -1,0 +1,32 @@
+.page {
+  box-sizing: border-box;
+  transition: 0.3s;
+  
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+}
+
+.page__menu {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+
+  &:target {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
+.page__body {
+  background: fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

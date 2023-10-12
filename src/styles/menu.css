@@ -1,0 +1,26 @@
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: pink;
+
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.menu__top {
+  margin-bottom: 24px;
+}
+
+.menu__logo {
+  width: 130px;
+}
+
+.menu__content {
+  padding: 24px 20px 0;
+}
+
+.menu__nav {
+  margin-bottom: 40px;
+}
+
+

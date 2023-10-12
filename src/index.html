@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,22 +10,56 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
-  <header>
-    <div class="header__block">
-      <a href="#">
+<body class="page__body">
+  <header class="header">
+    <div class="top-bar menu__top">
+      <a href="#" class="top-bar__logo">
         <img
         class="header__logo"
         src="./images/logo.png"
-        alt="header logo"
-        >
+        alt="logo">
       </a>
 
-      <div class="top-bar__icons">
-        <a href="#" class="icon icon--phone"></a>
-        <a href="#menu" class="icon icon--menu"></a>
-      </div>
+      <a href="#menu" class="icon icon--menu"></a>
     </div>
+  </header>
+
+  <aside class="page__menu menu" id="menu">
+    <div class="top-bar">
+      <a href="#" class="top-bar__logo">
+        <img
+        class="header__logo"
+        src="./images/logo.png"
+        alt="logo">
+      </a>
+
+      <a href="#" class="icon icon--close"></a>
+    </div>
+
+    <div class="menu__content">
+      <nav class="nav menu__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Теми на обговоренні</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#about">Юристи</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#compare">Ментори</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#details">Відгуки</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contacts">Роботодавцю</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <main class="main">
     <h3>Навіщо цей сервіс?</h3>
     <p>Це доступ до безоплатних юридичних консультацій /читати більше/</p>
     <h3>Хто мене консультує?</h3>
@@ -62,8 +96,7 @@
     <p>
       Ми всі різні і прийшли сюди випадково, але залишились і полюбили це місце, де перетинаються долі людей, і щодня відбувається пошук справедливості!
     </p>
-  </header>
-  <main></main>
+  </main>
   <footer></footer>
 </body>
 </html>
