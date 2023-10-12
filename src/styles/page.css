@@ -1,7 +1,5 @@
 .page {
   box-sizing: border-box;
-  transition: 0.3s;
-  
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   line-height: 140%;
@@ -29,4 +27,109 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.page__lawyers {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: yellow;
+
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &:target {
+    opacity: 2;
+    pointer-events: all;
+  }
+}
+
+.page__topics {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: greenyellow;
+
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &:target {
+    opacity: 2;
+    pointer-events: all;
+  }
+}
+
+.page__mentors {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: lightblue;
+
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &:target {
+    opacity: 2;
+    pointer-events: all;
+  }
+}
+
+.page__reviews {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: lightseagreen;
+
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &:target {
+    opacity: 2;
+    pointer-events: all;
+  }
+}
+
+.page__employer {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: lightcoral;
+
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &:target {
+    opacity: 2;
+    pointer-events: all;
+  }
 }
