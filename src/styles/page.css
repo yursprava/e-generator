@@ -23,96 +23,16 @@
 }
 
 .page__body {
-  background: fff;
+  background: #fff;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.page__lawyers {
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  pointer-events: none;
-
-  box-sizing: border-box;
-  height: 100vh;
-  background-color: yellow;
-
-  font-weight: 600;
-  text-transform: uppercase;
-
-  &:target {
-    opacity: 2;
-    pointer-events: all;
-  }
-}
-
-.page__topics {
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  pointer-events: none;
-
-  box-sizing: border-box;
-  height: 100vh;
-  background-color: greenyellow;
-
-  font-weight: 600;
-  text-transform: uppercase;
-
-  &:target {
-    opacity: 2;
-    pointer-events: all;
-  }
-}
-
-.page__mentors {
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  pointer-events: none;
-
-  box-sizing: border-box;
-  height: 100vh;
-  background-color: lightblue;
-
-  font-weight: 600;
-  text-transform: uppercase;
-
-  &:target {
-    opacity: 2;
-    pointer-events: all;
-  }
-}
-
-.page__reviews {
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  pointer-events: none;
-
-  box-sizing: border-box;
-  height: 100vh;
-  background-color: lightseagreen;
-
-  font-weight: 600;
-  text-transform: uppercase;
-
-  &:target {
-    opacity: 2;
-    pointer-events: all;
-  }
-}
-
+.page__lawyers, 
+.page__topics, 
+.page__mentors, 
+.page__reviews, 
 .page__employer {
   position: fixed;
   right: 0;
@@ -123,13 +43,13 @@
 
   box-sizing: border-box;
   height: 100vh;
-  background-color: lightcoral;
+  background-color: #fff;
 
   font-weight: 600;
   text-transform: uppercase;
 
   &:target {
-    opacity: 2;
+    opacity: 1;
     pointer-events: all;
   }
 }
